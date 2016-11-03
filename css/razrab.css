@@ -1,0 +1,77 @@
+#head {
+	height: 450px;
+	background-image: url(../images/header.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+#head .col-md-8  {
+	text-align: center;
+}
+#head .col-md-8 h1 {
+	margin-top: 50px;
+	color: #fff;
+	font-family: "f1"
+}
+#head .col-md-12 {
+	position: relative;
+	top: 262px;
+	background-color: rgba(0,0,0,0.5);
+}
+ul a {
+	color: #fff;
+	font-size: 1.5em;
+	font-family: "f3";
+}
+li a:hover {
+	color: #fff;
+	background-color: rgba(0,0,0,0.5) !important;
+}
+#knopk {
+	height: 380px;
+	background-color: #DECDB9;
+}
+#knopk .row {
+	height: 100%;
+}
+#knopk .stud {
+	background-image: url(../images/photo-.jpg);
+	height: 90%;
+	position: relative;
+	top: 20px;
+	background-size: cover;
+		background-repeat: no-repeat;
+	-ms-background-position-x: 10px;
+	background-position-x: 10px;
+
+
+}
+#knopk .rod {
+	background-image: url(../images/TeachingClass.jpg);
+	background-size: cover;
+	height: 90%;
+	position: relative;
+	top: 20px;
+	background-repeat: no-repeat;
+	-ms-background-position-x: -10px;
+	background-position-x: -10px;
+}
+#knopk h3 {
+	color: #fff;
+	position: relative;
+	top: 75px;
+	text-align: center;
+}
+#knopk img {
+	position: absolute;
+	top: 40%;
+	left: 45%;
+}
+#knopk img:hover {
+	transform: scale(1.2);
+}
+#poloska {
+	height: 60px;
+	background-color: #C6B097;
+	
+}

@@ -1,0 +1,155 @@
+#head {
+	height: 450px;
+	background-image: url(../images/header.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+#head .col-md-8  {
+	text-align: center;
+}
+#head .col-md-8 h1 {
+	margin-top: 50px;
+	color: #fff;
+	font-family: "f1"
+}
+#head .col-md-12 {
+	position: relative;
+	top: 262px;
+	background-color: rgba(0,0,0,0.5);
+}
+ul a {
+	color: #fff;
+	font-size: 1.5em;
+	font-family: "f3";
+}
+li a:hover {
+	color: #fff;
+	background-color: rgba(0,0,0,0.5) !important;
+}
+
+#knopk {
+	height: 380px;
+	background-color: #DECDB9;
+}
+#knopk .row {
+	height: 100%;
+}
+#knopk .stud {
+	background-image: url(../images/student.jpg);
+	height: 90%;
+	position: relative;
+	top: 20px;
+	background-size: cover;
+		background-repeat: no-repeat;
+	-ms-background-position-x: 10px;
+	background-position-x: 10px;
+
+
+}
+#knopk .rod {
+	background-image: url(../images/rod.jpg);
+	background-size: cover;
+	height: 90%;
+	position: relative;
+	top: 20px;
+	background-repeat: no-repeat;
+	-ms-background-position-x: -10px;
+	background-position-x: -10px;
+}
+#knopk h3 {
+	color: #fff;
+	position: relative;
+	top: 75px;
+	text-align: center;
+}
+#knopk img {
+	position: absolute;
+	top: 40%;
+	left: 45%;
+}
+#poloska {
+	height: 60px;
+	background-color: #C6B097;
+	
+}
+#raspisanie p {
+	font-size: 3em;
+	margin-top: 50px;
+}
+#raspisanie {
+	height: 900px;
+	background-color: #DECDB9;
+
+}
+#raspisanie table {
+	margin-top: 30px;
+	text-align: center;
+}
+#raspisanie #lesnrasp tr:nth-child(4n+1) {
+	background-color: #C6B097;
+}
+#knopk img:hover {
+	transform: scale(1.2);
+}
+#zvon {
+	width: 100%;
+	border: 1px solid black;
+}
+#zvon tr, #zvon td{
+	border: 1px solid black;
+}
+#nedeli {
+	width: 100%;
+	height: 268px;
+	border: 1px solid black;
+}
+#nedeli tr, #nedeli td{
+	border: 1px solid black;
+}
+#zvon tr:first-child,#nedeli tr:first-child {
+	background-color: #C6B097;
+
+}
+#metodik {
+	height: 700px;
+	background-color: #DECDB9;
+}
+#log {
+	margin-top: 30px;
+	text-align: center;
+}
+#log img {
+	width: 80%;
+	height: 170px;
+}
+.img1  {
+	height: 170px;
+	text-align: center;
+	background-color: #B6A18A;
+	margin-top: 30px;
+	border-radius: 15px;
+	box-shadow: -3px -3px 10px black; 
+}
+.img1 img {
+	margin-top: 30%;
+	transform: scale(2);
+}
+.img1 p {
+	margin-top: 15%;
+}
+#foot {
+	height: 100px;
+	background-color: #A08370;
+	font-family: "f2";
+	font-size: 1.2em;
+}
+h3 {
+	font-family: "f2";
+}
+h2 {
+	font-family: "f2";
+}
+p {
+	font-family: "f2";
+}
